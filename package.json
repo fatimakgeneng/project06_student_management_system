@@ -1,0 +1,23 @@
+{
+  "name": "pinkoosagi-student-management-system",
+  "version": "1.0.0",
+  "description": "This project is a simple console based Student Management System to add new students, generate unique ID and enroll students in different courses",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
